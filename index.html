@@ -4,6 +4,7 @@
 <meta charset="UTF-8">
 <title>Login</title>
 <script src="https://cdn.tailwindcss.com"></script>
+<link rel="shortcut icon" href="github-icon.png" type="image/x-icon">
 </head>
 
 <body class="bg-gray-100 flex items-center justify-center h-screen">
@@ -25,16 +26,12 @@
 <label>Username</label>
 <input id="username" class="border w-full p-2 rounded mt-1" placeholder="Enter Username">
 
-<!-- <p class="text-blue-500 text-sm">Default: admin</p> -->
-
 </div>
 
 <div class="mt-4">
 
 <label>Password</label>
 <input id="password" type="password" class="border w-full p-2 rounded mt-1" placeholder="Enter Password">
-
-<!-- <p class="text-blue-500 text-sm">Default: admin123</p> -->
 
 </div>
 
@@ -43,27 +40,6 @@ Sign In
 </button>
 
 </div>
-
-<script>
-
-function login(){
-
-const username=document.getElementById("username").value
-const password=document.getElementById("password").value
-
-if(username==="admin" && password==="admin123"){
-
-window.location.href="index.html"
-
-}else{
-
-alert("Invalid password")
-
-}
-
-}
-
-</script>
-
+<script src="login.js"></script>
 </body>
 </html>
