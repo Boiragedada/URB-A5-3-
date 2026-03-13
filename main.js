@@ -1,4 +1,4 @@
-
+// collect id
 const container=document.getElementById("issues-container");
 const loader=document.getElementById("loader");
 const issueCount=document.getElementById("issueCount");
